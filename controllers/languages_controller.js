@@ -57,3 +57,6 @@ languages.get('/:name', (req, res) => {
             res.json(foundLanguage)
         })
 })
+
+
+module.exports = languages
